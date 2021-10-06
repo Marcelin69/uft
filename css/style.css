@@ -1,0 +1,891 @@
+
+  @font-face {
+    font-family: 'SF Pro Display Black ';
+    font-style: normal;
+    font-weight: 900;
+    src: local('SF Pro Display Black '), url('SFPRODISPLAYBLACKITALIC.woff') format('woff');
+    }
+    body{
+      margin:  auto;
+      padding:  auto;
+    }
+    a:hover{
+      text-decoration: none;
+    color: chartreuse;
+    }
+header{
+  background: linear-gradient(
+    255deg,hsla(0,0%,100%,.75) 35%,hsla(0,0%,100%,.6) 80%), url(../image/Ellipse1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.logo1{
+  position: relative;
+  width:70px;
+  height:70px;
+  bottom: 8px;
+  left: 1px;
+}
+.navbar{
+  position: relative;
+  top: 0px;
+  z-index: 10; 
+}
+.nav-item {
+  margin-right: 55px;
+}
+
+.ul{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  list-style-type: none;
+  right: 20px;
+}
+.ul0{
+  
+  display: flex;
+  flex-direction: row;
+  right:10px;
+  
+}
+
+.ul1{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  line-height: 38px;
+  list-style-type: none;
+  right: 20px;
+  top:-50px;
+}
+.ul2 li{
+  position: relative;
+  margin: 10px;
+  display: flex;
+  right: 40px;
+}
+
+.univer{
+  font-family: SF Pro Display;
+font-style: normal;
+font-weight:bold;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+/* Grey 01 */
+
+color: #373759;
+ }
+ .tour{
+  font-weight: 900;
+font-style: normal;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #026633;
+}
+.partenaire{
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 29px;
+line-height: 35px;
+display: flex;
+margin-bottom: 10px;
+align-items: center;
+text-align: center;
+
+/* Grey Dark */
+
+color: #373759;
+}
+.explication{
+  font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 29px;
+line-height: 35px;
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Grey Dark */
+
+color: #373759;
+
+}
+.frame  img {
+  position: relative;
+  width: 160px;
+  margin: 5px;
+ right: 24px;
+ bottom: 5px;
+}
+
+.sous_nav{
+ position: relative;
+  top: 155px;
+  left: 12px;
+  font-weight: 900;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.now{
+font-style: normal;
+font-weight: 900;
+font-size: 70px;
+line-height: 69px;
+/* or 99% */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+/* Grey 01 */
+
+color: #373759;
+
+}
+.cree{
+ 
+font-style: normal;
+font-weight: 900;
+font-size: 31px;
+line-height: 66px;
+/* or 183% */
+
+display: flex;
+align-items: center;
+
+/* Grey 02 */
+
+color: #82829B;
+
+}
+.ima1{
+  position: relative;
+  bottom: 240px;
+  right: 100px;
+}
+.p1{
+  position: relative;
+  display: flex;
+  justify-content: center;
+ 
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 72px;
+top: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+/* Grey Dark */
+
+color: #373759;
+}
+.faq{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 72px;
+display: flex;
+top: 40px;
+align-items: center;
+text-align: center;
+
+/* Grey Dark */
+
+color: #373759;
+
+}
+.svg{
+ position: relative;
+left: -300px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.svg1{
+ position:relative;
+right:  -300px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+ opacity: 0.4;
+}
+.club{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: 75px;
+}
+.ctn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#accordion{
+  position: relative;
+  background: #E7E7F0;
+  border-radius: 25px;
+   margin: 50px 50px 0px 50px;
+   padding: 25px;
+ align-items: center;
+ flex-direction: column;
+}
+.groupe1{
+  position: relative;
+  width: 68px;
+  height: 68px;
+bottom: 5px;
+right: 5px;
+}
+
+
+.group{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.card-body{
+  display: flex;
+  margin-left: 55px;
+margin-right: 25px;
+}
+#accordion a{
+  font-weight: 900;
+  margin-right: 50px;
+  text-decoration: none;
+  color: #373759;
+  font-size: 25px;
+
+
+}
+.a1{
+  margin-left: 2px;
+  line-height: 18px;
+}
+.path{
+  position: absolute;
+ right: 3%;
+ top:50px ;
+ object-position: center;
+transform: rotate(0.0urn);
+}
+.path:hover{
+  position: absolute;
+right: 3%;
+top: 50px;
+transform: rotate(180deg);
+}
+
+.imagef{
+  position:absolute;
+}
+ul{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+list-style-type: none;
+
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 66px;
+
+}
+.pied{
+  position: relative;
+  bottom: 15px;
+}
+.contact{
+ 
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Grey Dark */
+
+color: #373759;
+}
+.contact2{
+  position: relative;
+  text-decoration: none;
+  background-color: #3D8A42;
+width: 500px;
+font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+text-align: center;
+padding: 20px;
+
+border-radius: 25px;
+/* White */
+
+color: #FFFFFF;
+}
+.contact1{
+  bottom: 15px;
+}
+.pied0{
+ 
+font-style: normal;
+font-weight: 900;
+font-size: 55px;
+line-height: 66px;
+/* identical to box height, or 110% */
+
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+/* Grey 01 */
+
+color: #373759;
+
+}
+li a{
+  margin: 14px;
+  text-decoration: none;
+  color: #373759;
+  bottom: 12px;
+}
+
+.imagef{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  opacity: 0.33;
+  display: flex;
+   height: 400px;
+   
+}
+
+.footer1{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.ctn{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  justify-content: center;
+  
+}
+
+.img_foot img{
+  width: 200px;
+}
+ul li a{
+  font-size: 20px;
+ 
+}
+footer{
+  background:linear-gradient(
+    180deg,#fff 5%,hsla(0,0%,100%,.75)), url(../image/Rectangle2.png);
+    width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+ /* resposive*/
+@media  (max-width:1024px) {
+  header{
+    background: linear-gradient(
+      255deg,hsla(0,0%,100%,.75) 35%,hsla(0,0%,100%,.6) 80%), url(../image/Ellipse1.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  .frame {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   right: 70px;
+  }
+  .frame img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 90px;
+  }
+
+}
+  
+@media  (max-width:1000px) {
+  header{
+    background: linear-gradient(
+      255deg,hsla(0,0%,100%,.75) 35%,hsla(0,0%,100%,.6) 80%), url(../image/Ellipse1.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .nav-link{
+    position: relative;
+    right: 20px;
+   }
+    .ul0 .logo1{
+    position: relative;
+    width:70px;
+    height:70px;
+    bottom: 8px;
+    left: 12px;
+  }
+   .ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    list-style-type: none;
+    right: 10px;
+    bottom: 5px;
+  }
+  .ul0{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 45px;
+    font-size: 12px;
+  }
+  .ul2{
+    position: relative;
+    display: flex;
+   flex-direction: column;
+    line-height: 15px;
+    left: 70px;
+  }
+   .sous_nav{
+     display: flex;
+     flex-direction: column;
+    
+   }
+   .collapse1{
+     position: relative;
+     right: 55px;
+   }
+   .svg{
+    position: relative;
+   left: -50px;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   }
+   .svg1{
+    position:relative;
+   right:  -50px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    opacity: 0.4;
+    
+   }
+   .ima1{
+    position: relative;
+    bottom: 160px;
+    right: 90px;
+    width: 350px;
+   
+  }
+  .partenaire{
+    font-family: SF Pro Display;
+   
+   font-style: normal;
+   font-weight: 900;
+   font-size: 29px;
+   line-height: 35px;
+
+
+   /* Grey Dark */
+
+   color: #373759;
+ }
+ .explication{
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+
+  /* Grey Dark */
+
+  color: #373759;
+
+  }
+  
+  .bar1{
+    position: relative;
+    right: 70px;
+  }
+  .club{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 75px;
+  }
+  .club1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1000px;
+    height: 150px;
+  }
+  .ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    list-style-type: none;
+  
+  }
+  li a{
+    margin: 9px;
+    text-decoration: none;
+    color: #373759;
+    
+  }
+  ul li a{
+    font-size: 10px;
+   
+  }
+ 
+  .contact2{
+    position: relative;
+    text-decoration: none;
+    background-color: #3D8A42;
+  width: 250px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 42px;
+  text-align: center;
+  padding: 10px;
+
+  border-radius: 25px;
+  /* White */
+
+  color: #FFFFFF;
+  }
+  .navbar{
+  position: absolute;
+    top: 0px;
+  right: 0px;
+  left: 0px;
+    
+  }
+  .ul0{
+    display: flex;
+    flex-direction: row;
+    right:20px;
+  }
+
+  .ul1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    line-height: 38px;
+    list-style-type: none;
+    right: 20px;
+    top:-50px;
+  }
+  .ul2 li{
+    position: relative;
+    margin: 10px;
+    display: flex;
+    right: 70px;
+  }
+  .p1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 72px;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Grey Dark */
+
+    color: #373759;
+  }
+// .nav{
+//   display: flex;
+//   flex-direction: column;
+// }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// body{
+//   margin: 0 auto;
+//   padding:0 auto;
+// }
+// header{
+//   display: flex;
+//   text-align: center;
+// margin: 0;
+// padding: 0;
+// }
+// .image{
+//   opacity: 0.33;
+  
+//  position: relative;
+// }
+
+//  #bar{
+ 
+//  }
+ 
+
+// .titre{
+//   line-height: 32px;
+// }
+
+
+// .card-body{
+//   font-size: 10px;
+// }
+// .frame{
+//   position: absolute;
+// width: 160.58px;
+// height: 60.58px;
+// left: 1000px;
+// top: 73.21px;
+// display: flex;
+// }
+
+
+
+
+
+// .card a {
+//   background-color: rgb(218, 222, 247);
+//   border-radius: 25px;
+//   font-size: 24px;
+// }
+// #accordion{
+//  padding: 68px;
+//  margin: 35px;
+// }
+
+
+
+
+
+// footer{
+  
+// margin: 0;
+// padding: 0;
+// }
+
+
