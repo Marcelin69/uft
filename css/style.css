@@ -14,10 +14,14 @@
     color: chartreuse;
     }
 header{
+  margin: 0 auto;
+
   background: linear-gradient(
     255deg,hsla(0,0%,100%,.75) 35%,hsla(0,0%,100%,.6) 80%), url(../image/Ellipse1.png);
+    min-width: 100%;
+    max-width: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: relative;
 }
 
 .logo1{
@@ -239,10 +243,74 @@ justify-content: center;
 .club{
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   justify-content: center;
   top: 75px;
 }
+.player{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+ width: 100px;
+}
+.club1{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  width: 100px;
+}
+.association{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  width: 100px;
+}
+.company{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  width: 100px;
+}
+.telechage{
+  position: relative;
+  top: 180px;
+ 
+}
+.lengend{
+  color: #04743B;
+  font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 76px;
+/* or 250% */
+display: flex;
+flex-direction: row;
+justify-content: center; 
+
+}
+.lengend1{
+position: relative;
+color: #04743B;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 76px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+/* or 250% */
+}
+
 .ctn{
   display: flex;
   flex-direction: column;
@@ -445,6 +513,69 @@ footer{
     flex-direction: column;
     left: 90px;
   }
+  .telechage{
+    position: relative;
+    top: 180px;
+   opacity: 0.0;
+  }
+  .player{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 60px;
+   width: 100px;
+  }
+  .club1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    left: 55px;
+  }
+  .association{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+  }
+  .company{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    width: 100px;
+  }
+  .lengend{
+    color: #04743B;
+    font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 76px;
+  /* or 250% */
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  
+  }
+  .lengend1{
+  position: relative;
+  color: #04743B;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 76px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* or 250% */
+  }
+  
 
 }
   
@@ -465,6 +596,11 @@ footer{
     height:70px;
     bottom: 8px;
     left: 12px;
+  }
+  .telechage{
+    position: relative;
+    top: 180px;
+   opacity: 0.0;
   }
    .ul{
     position: relative;
@@ -556,18 +692,12 @@ footer{
   .club{
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    text-align: center;
     top: 75px;
   }
-  .club1{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 1000px;
-    height: 150px;
-  }
+  
   .ul{
     display: flex;
     flex-direction: column;
