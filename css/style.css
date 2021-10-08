@@ -17,7 +17,8 @@ header{
   background: linear-gradient(
     255deg,hsla(0,0%,100%,.75) 35%,hsla(0,0%,100%,.6) 80%), url(../image/Ellipse1.png);
   background-size: cover;
-  background-position: center;
+  background-position:top;
+  
 }
 
 .logo1{
@@ -51,7 +52,20 @@ header{
   right:10px;
   
 }
-
+.lili .li1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  position: relative;
+  bottom: 10px;
+}
+#navbarNav{
+  position: relative;
+  right: 300px;
+}
 .ul1{
   position: relative;
   display: flex;
@@ -97,6 +111,7 @@ text-transform: uppercase;
 color: #026633;
 }
 .partenaire{
+  position: relative;
 font-family: SF Pro Display;
 font-style: normal;
 font-weight: 600;
@@ -106,12 +121,13 @@ display: flex;
 margin-bottom: 10px;
 align-items: center;
 text-align: center;
-
+left: 308px;
 /* Grey Dark */
 
 color: #373759;
 }
 .explication{
+  position: relative;
   font-family: SF Pro Display;
 font-style: normal;
 font-weight: 600;
@@ -121,18 +137,18 @@ margin-bottom: 10px;
 display: flex;
 align-items: center;
 text-align: center;
-
+left: 308px;
 /* Grey Dark */
 
 color: #373759;
 
 }
-.frame  img {
+.frame img{
   position: relative;
-  width: 160px;
+  width: 150px;
   margin: 5px;
- right: 24px;
  bottom: 5px;
+ left: 280px;
 }
 
 .sous_nav{
@@ -145,12 +161,13 @@ color: #373759;
   justify-content: center;
 }
 .now{
+  position: relative;
 font-style: normal;
 font-weight: 900;
-font-size: 70px;
-line-height: 69px;
+font-size: 60px;
+line-height: 55px;
 /* or 99% */
-
+top: 25px;
 display: flex;
 align-items: center;
 text-transform: uppercase;
@@ -161,13 +178,13 @@ color: #373759;
 
 }
 .cree{
- 
+ position: relative;
 font-style: normal;
 font-weight: 900;
 font-size: 31px;
-line-height: 66px;
+line-height: 36px;
 /* or 183% */
-
+top: 45px;
 display: flex;
 align-items: center;
 
@@ -181,6 +198,7 @@ color: #82829B;
   bottom: 240px;
   right: 100px;
 }
+
 .p1{
   position: relative;
   display: flex;
@@ -243,69 +261,7 @@ justify-content: center;
   justify-content: center;
   top: 75px;
 }
-.player{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 20px;
- width: 100px;
-}
-.club1{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 20px;
-  width: 100px;
-}
-.association{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 20px;
-  width: 100px;
-}
-.company{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 20px;
-  width: 100px;
-}
-.telechage{
-  position: relative;
-  top: 180px;
- 
-}
-.lengend{
-  color: #04743B;
-  font-family: SF Pro Display;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 76px;
-/* or 250% */
-display: flex;
-flex-direction: row;
-justify-content: center; 
 
-}
-.lengend1{
-position: relative;
-color: #04743B;
-font-family: SF Pro Display;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 76px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-/* or 250% */
-}
 
 .ctn{
   display: flex;
@@ -501,49 +457,18 @@ footer{
     position: relative;
     display: flex;
     flex-direction: column;
-   right: 70px;
+  left: 195px;
   }
   .frame img{
     position: relative;
     display: flex;
     flex-direction: column;
-    left: 90px;
+    left: 10px;
   }
-  .telechage{
+  .ima1{
     position: relative;
-    top: 180px;
-   opacity: 0.0;
-  }
-  .player{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    left: 60px;
-   width: 100px;
-  }
-  .club1{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100px;
-    left: 55px;
-  }
-  .association{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100px;
-  }
-  .company{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
-    width: 100px;
+    bottom: 240px;
+    right: 9px;
   }
   .lengend{
     color: #04743B;
@@ -586,19 +511,23 @@ footer{
     position: relative;
     right: 20px;
    }
+   .navbar-toggler{
+     position: relative;
+     right: 55px;
+     bottom: 20px;
+   }
+   .container-fluid{
+     position: relative;
+     top: 40px;
+   }
     .ul0 .logo1{
     position: relative;
-    width:70px;
-    height:70px;
+    width:90px;
+    height:90px;
     bottom: 8px;
     left: 12px;
   }
-  .telechage{
-    position: relative;
-    top: 180px;
-   opacity: 0.0;
-  }
-   .ul{
+  .ul{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -606,6 +535,108 @@ footer{
     list-style-type: none;
     right: 10px;
     bottom: 5px;
+  }
+  .univer{
+    font-family: SF Pro Display;
+  font-style: normal;
+  font-weight:bold;
+  font-size: 30px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  
+  /* Grey 01 */
+  
+  color: #373759;
+   }
+   .tour{
+    font-weight: 900;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 66px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #026633;
+  }
+  .partenaire{
+    font-family: SF Pro Display;
+   
+   font-style: normal;
+   font-weight: 900;
+   font-size: 49px;
+   line-height: 35px;
+
+
+   /* Grey Dark */
+
+   color: #373759;
+ }
+ .explication{
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 49px;
+
+  /* Grey Dark */
+
+  color: #373759;
+
+  }
+  .frame img{
+    position: relative;
+    width: 180px;
+    margin: 5px;
+   bottom: 5px;
+   left: 40px;
+  }
+  .sous_nav{
+    display: flex;
+    flex-direction: column; 
+  }
+  .now{
+    position: relative;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 75px;
+  /* or 99% */
+  top: 25px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  
+  /* Grey 01 */
+  
+  color: #373759;
+  
+  }
+  .cree{
+   position: relative;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 41px;
+  line-height: 56px;
+  /* or 183% */
+  top: 45px;
+  display: flex;
+  align-items: center;
+  
+  /* Grey 02 */
+  
+  color: #82829B;
+  }
+  .ima1{
+    position: relative;
+    bottom: 120px;
+    right: 45px;
+    width: 750px;
+   
   }
   .ul0{
     position: relative;
@@ -621,11 +652,7 @@ footer{
     line-height: 15px;
     left: 70px;
   }
-   .sous_nav{
-     display: flex;
-     flex-direction: column;
-    
-   }
+   
    .collapse1{
      position: relative;
      right: 55px;
@@ -649,50 +676,15 @@ footer{
     opacity: 0.4;
     
    }
-   .ima1{
-    position: relative;
-    bottom: 160px;
-    right: 90px;
-    width: 350px;
-   
-  }
-  .partenaire{
-    font-family: SF Pro Display;
-   
-   font-style: normal;
-   font-weight: 900;
-   font-size: 29px;
-   line-height: 35px;
-
-
-   /* Grey Dark */
-
-   color: #373759;
- }
- .explication{
-  font-family: SF Pro Display;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 29px;
-
-  /* Grey Dark */
-
-  color: #373759;
-
-  }
+  
+  
+  
   
   .bar1{
     position: relative;
     right: 70px;
   }
-  .club{
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    text-align: center;
-    top: 75px;
-  }
+  
   
   .ul{
     display: flex;
@@ -859,13 +851,7 @@ footer{
     opacity: 0.4;
     
    }
-   .ima1{
-    position: relative;
-    bottom: 160px;
-    right: 90px;
-    width: 350px;
-   
-  }
+  
   .partenaire{
     font-family: SF Pro Display;
    
@@ -890,6 +876,13 @@ footer{
   color: #373759;
 
   }
+  .ima1{
+    position: relative;
+    bottom: 160px;
+    right: 90px;
+    width: 350px;
+   
+  }
   
   .bar1{
     position: relative;
@@ -902,6 +895,8 @@ footer{
     flex-direction: row;
     text-align: center;
     top: 75px;
+    width:1151px ;
+    height:254px ;
   }
   
   .ul{
