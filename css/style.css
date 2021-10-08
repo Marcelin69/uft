@@ -14,14 +14,10 @@
     color: chartreuse;
     }
 header{
-  margin: 0 auto;
-
   background: linear-gradient(
     255deg,hsla(0,0%,100%,.75) 35%,hsla(0,0%,100%,.6) 80%), url(../image/Ellipse1.png);
-    min-width: 100%;
-    max-width: 100%;
   background-size: cover;
-  background-position: relative;
+  background-position: center;
 }
 
 .logo1{
@@ -575,7 +571,7 @@ footer{
   justify-content: center;
   /* or 250% */
   }
-  
+ 
 
 }
   
@@ -712,7 +708,7 @@ footer{
     
   }
   ul li a{
-    font-size: 10px;
+    font-size: 15px;
    
   }
  
@@ -777,10 +773,236 @@ footer{
 
     color: #373759;
   }
+  
 // .nav{
 //   display: flex;
 //   flex-direction: column;
 // }
+}
+  
+@media  (max-width:389px) {
+  header{
+    background: linear-gradient(
+      255deg,hsla(0,0%,100%,.75) 35%,hsla(0,0%,100%,.6) 80%), url(../image/Ellipse1.png);
+    background-size: cover ;
+    background-position: center ;
+  }
+  .nav-link{
+    position: relative;
+    right: 20px;
+   }
+    .ul0 .logo1{
+    position: relative;
+    width:70px;
+    height:70px;
+    bottom: 8px;
+    left: 12px;
+  }
+  .telechage{
+    position: relative;
+    top: 180px;
+   opacity: 0.0;
+  }
+   .ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    list-style-type: none;
+    right: 10px;
+    bottom: 5px;
+  }
+  .ul0{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 45px;
+    font-size: 12px;
+  }
+  .ul2{
+    position: relative;
+    display: flex;
+   flex-direction: column;
+    line-height: 15px;
+    left: 70px;
+  }
+   .sous_nav{
+     display: flex;
+     flex-direction: column;
+    position: relative;
+     top: 50px;
+     left: 12px;
+     font-weight: 900;
+     display: flex;
+     justify-content: center;
+   }
+   .collapse1{
+     position: relative;
+     right: 55px;
+   }
+   .svg{
+    position: relative;
+   left: -50px;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   }
+   .svg1{
+    position:relative;
+   right:  -50px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    opacity: 0.4;
+    
+   }
+   .ima1{
+    position: relative;
+    bottom: 160px;
+    right: 90px;
+    width: 350px;
+   
+  }
+  .partenaire{
+    font-family: SF Pro Display;
+   
+   font-style: normal;
+   font-weight: 900;
+   font-size: 29px;
+   line-height: 35px;
+
+
+   /* Grey Dark */
+
+   color: #373759;
+ }
+ .explication{
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+
+  /* Grey Dark */
+
+  color: #373759;
+
+  }
+  
+  .bar1{
+    position: relative;
+    right: 70px;
+  }
+  .club{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    top: 75px;
+  }
+  
+  .ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    list-style-type: none;
+  
+  }
+  li a{
+    margin: 10px;
+   text-decoration: none;
+    color: #373759;
+    display: flex;
+    
+  }
+  ul li a{
+    font-size: 12px;
+    flex-wrap: wrap;
+    
+  }
+ 
+  .contact2{
+    position: relative;
+    text-decoration: none;
+    background-color: #3D8A42;
+  width: 250px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 42px;
+  text-align: center;
+  padding: 10px;
+
+  border-radius: 25px;
+  /* White */
+
+  color: #FFFFFF;
+  }
+  .navbar{
+  position: absolute;
+    top: 0px;
+  right: 0px;
+  left: 0px;
+    
+  }
+  .ul0{
+    display: flex;
+    flex-direction: row;
+    right:20px;
+  }
+
+  .ul1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    line-height: 38px;
+    list-style-type: none;
+    right: 20px;
+    top:-50px;
+  }
+  .ul2 li{
+    position: relative;
+    margin: 10px;
+    display: flex;
+    right: 70px;
+  }
+  .p1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 72px;
+    top: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Grey Dark */
+
+    color: #373759;
+  }
+  .pied0{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 55px;
+    font-size: 49px;
+  }
+  .contact1{
+    position: relative;
+    right: 12px;
+  }
+   .img_foot{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
 }
   
 
